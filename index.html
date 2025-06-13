@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hestia</title>
-    <!-- <link rel="stylesheet" href="./style/main/main.css" type="text/css"> -->
-    <link rel="stylesheet" href="./style/nav/nav.css" type="text/css" />
+    <link rel="stylesheet" href="./style/main/main.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="./style/nav/nav.css" type="text/css" />
     <link rel="stylesheet" href="./style/common/common.css" type="text/css" />
-    <link rel="stylesheet" href="./style/home/home.css" type="text/css" />
+    <link rel="stylesheet" href="./style/home/home.css" type="text/css" /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -19,33 +19,42 @@
   <body>
     <div class="page-container">
       <header>
-        <nav class="nav-wrapper">
+        <nav>
           <div class="hestia-nav">
             <a href="./index.html">Hestia</a>
           </div>
-          <div class="nav-item">
-            <a href="./index.html">HOME</a>
+          <div class="right-nav">
+            <div class="nav-item">
+              <a href="./index.html">HOME</a>
+            </div>
+            <div class="nav-item">
+              <a href="./pages/blog.html">BLOG</a>
+            </div>
+            <div class="nav-item">
+              <a href="./pages/contact.html">CONTACT</a>
+            </div>
+            <!-- <div class="more-button"><button>MORE</button></div> -->
+            <div class="more-button">MORE</div>
           </div>
-          <div class="nav-item">
-            <a href="./pages/blog.html">BLOG</a>
-          </div>
-          <div class="nav-item">
-            <a href="./pages/contact.html">CONTACT</a>
-          </div>
-          <div class="more-nav"><button>MORE</button></div>
         </nav>
       </header>
       <div class="hero-wrapper">
-        <div class="hero-image-1">
-          <img src="./assets/home/parallax_1.jpg" />
+        <div class="image-wrapper">
+          <img
+            src="./assets/home/parallax_1.jpg"
+            alt="Blue-Sky"
+            class="hero-image-back"
+          />
+          <img
+            src="./assets/home/parallax_2.png"
+            alt="Statue"
+            class="hero-image-front"
+          />
         </div>
-        <div class="hero-img-2">
-          <img src="./assets/home/parallax_2.png" />
-        </div>
-        <div class="her-content">
+        <div class="hero-content">
           <h1><span>Welcome to Hestia!</span></h1>
           <p>Lorem ipsum dolor sit amet</p>
-          <button>SEE MORE</button>
+          <div class="see-more-button">SEE MORE</div>
         </div>
       </div>
       <div class="body-wrapper">

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+header {
+  position: fixed;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5em;
+  background-color: white;
+  z-index: 3;
+  box-shadow: 0px 5px 12px 0px #999999;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5em;
+
+    a {
+      text-decoration: none;
+    }
+
+    .hestia-nav {
+      :hover {
+        color: gray;
+        cursor: pointer;
+      }
+    }
+
+    .right-nav {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+
+      .nav-item {
+        :hover {
+          color: red;
+        }
+      }
+
+      .more-button {
+        color: white;
+        text-align: center;
+
+        width: 60px;
+        height: 20px;
+        padding: 16px;
+        border-radius: 40px;
+        background-color: red;
+        &:hover {
+          box-shadow: 0px 12px 20px 0px #f9c8c8;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
