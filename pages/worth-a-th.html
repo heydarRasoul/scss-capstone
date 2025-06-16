@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hestia</title>
-    <!-- <link rel="stylesheet" href="./style/main/main.css" type="text/css"> -->
-    <link rel="stylesheet" href="./style/nav/nav.css" type="text/css" />
-    <link rel="stylesheet" href="./style/common/common.css" type="text/css" />
-    <link rel="stylesheet" href="./style/home/home.css" type="text/css" />
+    <title>Worth A Thousand Word</title>
+    <link rel="stylesheet" href="/style/main/main.css" type="text/css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -17,102 +15,121 @@
     />
   </head>
   <body>
-    <div class="page-container">
+    <div class="worth-page-container">
       <header>
-        <nav class="nav-wrapper">
+        <nav>
           <div class="hestia-nav">
             <a href="/index.html">Hestia</a>
           </div>
-          <div class="nav-item">
-            <a href="/index.html">HOME</a>
+
+          <div class="right-nav">
+            <div class="nav-item">
+              <a href="/index.html">HOME</a>
+            </div>
+            <div class="nav-item active-link">
+              <a href="/pages/blog.html">BLOG</a>
+            </div>
+            <div class="nav-item">
+              <a href="/pages/contact.html">CONTACT</a>
+            </div>
+
+            <div class="more-button">MORE</div>
           </div>
-          <div class="nav-item">
-            <a href="/pages/blog.html">BLOG</a>
-          </div>
-          <div class="nav-item">
-            <a href="/pages/contact.html">CONTACT</a>
-          </div>
-          <div class="more-nav"><button>MORE</button></div>
         </nav>
       </header>
-      <div class="hero-wrapper">
+      <div class="worth-hero-wrapper">
         <h1><span>Worth A Thousand Words</span></h1>
-        <p>
-          Published by <span class="publisher-name">Theme Admin</span> on
-          October 17, 2008
-        </p>
+        <p>Published by <span>Theme Admin</span> on October 17, 2008</p>
       </div>
-      <div class="body-wrapper">
-        <div class="body-content-wraper">
+      <div class="worth-body-wrapper">
+        <div class="worth-content-wraper">
           <img src="/assets/worth-a-th/boat.jpg" alt="Boat" />
-          <p>Boat.</p>
+          <p class="image-title">Boat.</p>
 
           <h3>Boat.</h3>
-          <p>Categories:<button>Uncategorized</button></p>
-          <p>Tags: <span class="boat-lake-tag">boat lake</span></p>
-        </div>
-        <div class="social-media-wrapper">
-          <a href="https://www.facebook.com/" target="_blank"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-          <a href="https://x.com/intent" target="_blank"
-            ><i class="fa-solid fa-circle-xmark"></i
-          ></a>
 
-          <a href="https://accounts.google.com/" target="_blank"
-            ><i class="fa-solid fa-envelope"></i
-          ></a>
+          <div class="grid-tag-social">
+            <div>
+              <div class="categories">
+                <p>Categories: <button>Uncategorized</button></p>
+              </div>
+
+              <div class="tag-photo">
+                <p>Tags: <span class="boat-lake-tag">boat lake</span></p>
+              </div>
+            </div>
+            <div class="social-media-wrapper">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://x.com/intent" target="_blank"
+                ><i class="fa-solid fa-circle-xmark"></i
+              ></a>
+
+              <a href="https://accounts.google.com/" target="_blank"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <hr class="h-line" />
         </div>
-        <hr />
       </div>
 
-      <div class="related-posts-wrapper">
+      <div class="worth-posts-wrapper">
         <h2>Related Posts</h2>
-        <div>
-          <a href="/pages/blog.html">Uncategorized</a>
-          <h3>
-            <a href="/pages/elements.html">Elements</a>
-          </h3>
-          <p>
-            The purpose of this HTML is to help determine what default settings
-            are with CSS and to make sure that all possible HTML Elements are
-            included in this HTML so as to not miss any
-            <a href="/pages/elements.html">Read more…</a>
-          </p>
-        </div>
 
-        <div class="more-tag-section">
-          <a href="/pages/blog.html">Uncategorized</a>
-          <h3>
-            <a href="/pages/blog.html">More Tags</a>
-          </h3>
-          <p>More of these posts need tags.</p>
-        </div>
+        <div class="post-wrapper">
+          <div class="elements-section">
+            <a href="/pages/blog.html" class="pu-color-link">Uncategorized</a>
+            <h3>
+              <a href="/pages/elements.html" class="hover-link">Elements</a>
+            </h3>
+            <p>
+              The purpose of this HTML is to help determine what default
+              settings are with CSS and to make sure that all possible HTML
+              Elements are included in this HTML so as to not miss any
+              <a href="/pages/elements.html">Read more…</a>
+            </p>
+          </div>
 
-        <div class="html-section">
-          <a href="/pages/blog.html">Uncategorized</a>
-          <h3>
-            <a href="/pages/blog.html">HTML</a>
-          </h3>
-          <p>
-            What HTML tags would you like to see? Let’s start with an unordered
-            list: One Two Three Four And then move on to a more interesting
-            ordered list: one, two buckle my shoe three, four knock at the door
-            Five, six pick up sticks Seven, eight, lay them straight Nine, ten,
-            a big fat hen Eleven, twelve, dig and delve Thirteen, fourteen,
-            maids a’courting Fifteen, sixteen, maids in the kitchen Seventeen,
-            eighteen, maids a’waiting Nineteen,<a href="/pages/elements.html"
-              >Read more…</a
-            >
-          </p>
+          <div class="more-tag-section">
+            <a href="/pages/blog.html" class="blue-color-link">Uncategorized</a>
+            <h3>
+              <a href="/pages/blog.html" class="hover-link">More Tags</a>
+            </h3>
+            <p>More of these posts need tags.</p>
+          </div>
+
+          <div class="html-section">
+            <a href="/pages/blog.html" class="red-color-link">Uncategorized</a>
+            <h3>
+              <a href="/pages/blog.html" class="hover-link">HTML</a>
+            </h3>
+            <p>
+              What HTML tags would you like to see? Let’s start with an
+              unordered list: One Two Three Four And then move on to a more
+              interesting ordered list: one, two buckle my shoe three, four
+              knock at the door Five, six pick up sticks Seven, eight, lay them
+              straight Nine, ten, a big fat hen Eleven, twelve, dig and delve
+              Thirteen, fourteen, maids a’courting Fifteen, sixteen, maids in
+              the kitchen Seventeen, eighteen, maids a’waiting Nineteen,<a
+                href="/pages/elements.html"
+                >Read more…</a
+              >
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="footer-wrapper">
-        <a href="./pages/contact.html">ABOUT</a>
-        <a href="./pages/contact.html">PARENT PAGE</a>
+      <div class="worth-footer-wrapper">
+        <div class="footer-content">
+          <div class="footer-left">
+            <a href="./pages/contact.html">ABOUT</a>
+            <a href="./pages/contact.html">PARENT PAGE</a>
+          </div>
 
-        <p>Hestia | Developed by ThemeIsle</p>
+          <p>Hestia | Developed by ThemeIsle</p>
+        </div>
       </div>
     </div>
   </body>

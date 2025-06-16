@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <!-- <link rel="stylesheet" href="./style/main/main.css" type="text/css"> -->
-    <link rel="stylesheet" href="/style/nav/nav.css" type="text/css" />
-    <link rel="stylesheet" href="/style/common/common.css" type="text/css" />
-    <link rel="stylesheet" href="/style/home/home.css" type="text/css" />
+    <link rel="stylesheet" href="/style/main/main.css" type="text/css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -19,29 +17,30 @@
   <body>
     <div class="page-container">
       <header>
-        <nav class="nav-wrapper">
+        <nav>
           <div class="hestia-nav">
             <a href="/index.html">Hestia</a>
           </div>
-          <div class="nav-item">
-            <a href="/index.html">HOME</a>
+          <div class="right-nav">
+            <div class="nav-item">
+              <a href="/index.html">HOME</a>
+            </div>
+            <div class="nav-item">
+              <a href="/pages/blog.html">BLOG</a>
+            </div>
+            <div class="nav-item active-link">
+              <a href="/pages/contact.html" class="contact-link">CONTACT</a>
+            </div>
+
+            <div class="more-button">MORE</div>
           </div>
-          <div class="nav-item">
-            <a href="/pages/blog.html">BLOG</a>
-          </div>
-          <div class="nav-item">
-            <a href="/pages/contact.html">CONTACT</a>
-          </div>
-          <div class="more-nav"><button>MORE</button></div>
         </nav>
       </header>
     </div>
-    <div class="hero-wrapper">
+    <div class="map-hero-wrapper">
       <div class="gooogle-map-wrapper">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22785.421725301356!2d26.092743!3d44.450027!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff5499e689fd%3A0xec3a46eabd83835b!2sStrada%20Povernei%2020%2C%20Bucure%C8%99ti%2C%20Romania!5e0!3m2!1sen!2sus!4v1749679157325!5m2!1sen!2sus"
-          width="600"
-          height="450"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
@@ -49,45 +48,58 @@
         ></iframe>
       </div>
     </div>
-    <div class="body-wrapper">
+    <div class="contact-body-wrapper">
       <div class="left-column">
+        <h3>Send us a message</h3>
         <form>
           <div>
             <input type="text" placeholder="Your name.." />
+          </div>
+          <div>
             <input type="text" placeholder="Your last name.." />
           </div>
           <div>
-            <textarea placeholder="Write something" rows="15"></textarea>
+            <textarea placeholder="Write something.." rows="10"></textarea>
           </div>
           <button type="submit">SUBMIT</button>
         </form>
       </div>
       <div class="right-column">
         <dive class="address-section">
-          <i class="fa-solid fa-map" style="color: #e60f0f"></i>
-          <h3>Find us at office</h3>
+          <h3>
+            <i class="fa-solid fa-map" style="color: #e60f0f"></i> Find us at
+            office
+          </h3>
+
           <p>Strada Povernei, nr 20</p>
           <p>Bucharest</p>
           <p>Romania</p>
         </dive>
         <dive class="phone-section">
-          <i class="fa-solid fa-phone-flip" style="color: #f20202"></i>
-          <h3>Give us a ring</h3>
+          <h3>
+            <i class="fa-solid fa-phone-flip" style="color: #f20202"></i> Give
+            us a ring
+          </h3>
           <p>John Doe</p>
           <p>+40 712 345 678</p>
           <p>Mon – Fri, 8:00-22:00</p>
         </dive>
         <dive class="info-section">
-          <i class="fa-solid fa-briefcase" style="color: #eb0000"></i>
-          <h3>Legal information</h3>
+          <h3>
+            <i class="fa-solid fa-briefcase" style="color: #eb0000"></i> Legal
+            information
+          </h3>
           <p>John Doe Co.</p>
           <p>Fiscal Code: 12345678</p>
         </dive>
       </div>
-
-      <div class="footer-wrapper">
-        <a href="./pages/contact.html">ABOUT</a>
-        <a href="./pages/contact.html">PARENT PAGE</a>
+    </div>
+    <div class="contact-footer-wrapper">
+      <div class="footer-content">
+        <div class="footer-left">
+          <a href="./pages/contact.html">ABOUT</a>
+          <a href="./pages/contact.html">PARENT PAGE</a>
+        </div>
 
         <p>Hestia | Developed by ThemeIsle</p>
       </div>

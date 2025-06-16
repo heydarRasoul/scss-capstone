@@ -1,8 +1,10 @@
 $gray-color: rgb(147, 145, 145);
 header {
   position: fixed;
+  top: 0;
 
   width: 100%;
+
   height: 5em;
   background-color: white;
   z-index: 3;
@@ -37,6 +39,11 @@ header {
         }
       }
 
+      .active-link,
+      .contact-link {
+        color: #e91e63;
+      }
+
       .more-button {
         color: white;
         text-align: center;
@@ -50,6 +57,19 @@ header {
           box-shadow: 0px 12px 20px 0px #f9c8c8;
           cursor: pointer;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    nav {
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em;
+      .right-nav {
+        gap: 1em;
       }
     }
   }
