@@ -15,10 +15,9 @@
 .blog-body-wrapper {
   background-color: rgb(253, 253, 253);
   position: relative;
-  top: -5em;
   width: 90%;
   max-width: 1750px;
-  margin: 0 auto;
+  margin: -5em auto;
   border-radius: 10px 10px 0 0;
   box-shadow: -1px 0px 21px 6px #999999;
   padding: 2rem 0;
@@ -69,7 +68,6 @@
 
 .blog-footer-wrapper {
   position: relative;
-  top: -5em;
   background-color: rgb(53, 52, 52);
   height: 5em;
   width: 100%;

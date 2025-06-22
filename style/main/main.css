@@ -32,9 +32,10 @@ header nav .right-nav {
   display: flex;
   gap: 50px;
   align-items: center;
+  font-size: 12px;
 }
-header nav .right-nav .nav-item :hover {
-  color: red;
+header nav .right-nav :hover {
+  color: #e91e63;
 }
 header nav .right-nav .active-link,
 header nav .right-nav .contact-link {
@@ -44,10 +45,10 @@ header nav .right-nav .more-button {
   color: white;
   text-align: center;
   width: 60px;
-  height: 20px;
-  padding: 16px;
+  height: 16px;
+  padding: 18px;
   border-radius: 40px;
-  background-color: red;
+  background-color: #e91e63;
 }
 header nav .right-nav .more-button:hover {
   box-shadow: 0px 12px 20px 0px #f9c8c8;
@@ -56,8 +57,6 @@ header nav .right-nav .more-button:hover {
 
 @media screen and (max-width: 768px) {
   header nav {
-    justify-content: space-between;
-    align-items: center;
     padding: 1em;
   }
   header nav .right-nav {
@@ -114,9 +113,8 @@ header nav .right-nav .more-button:hover {
 .page-container .body-wrapper {
   background-color: rgb(253, 253, 253);
   position: relative;
-  top: -5em;
   width: 90%;
-  margin: 0 auto;
+  margin: -5em auto;
   border-radius: 10px 10px 0 0;
   box-shadow: -1px 0px 21px 6px #999999;
   padding: 2rem 2rem 0 2rem;
@@ -158,7 +156,6 @@ header nav .right-nav .more-button:hover {
 }
 .page-container .body-wrapper .body-content-wrapper .about-content-wrapper .foreground-wrapper {
   background-color: rgba(0, 0, 0, 0.7);
-  z-index: 2;
   display: grid;
   grid-template-columns: 50% 50%;
   height: 400px;
@@ -188,17 +185,9 @@ header nav .right-nav .more-button:hover {
   font-size: clamp(2rem, 3vw, 4rem);
   padding: 0 0 1.5em 0;
 }
-.page-container .body-wrapper .body-content-wrapper .blog-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 .page-container .body-wrapper .body-content-wrapper .blog-section .blogs-wrapper {
   display: flex;
-  justify-content: center;
   margin-left: 7em;
-  text-align: left;
 }
 .page-container .body-wrapper .body-content-wrapper .blog-section .blogs-wrapper .worth-section .blog-worth {
   color: purple;
@@ -215,7 +204,6 @@ header nav .right-nav .more-button:hover {
 .page-container .body-wrapper .body-content-wrapper .blog-section .blog {
   display: flex;
   flex-direction: column;
-  align-items: left;
 }
 .page-container .body-wrapper .body-content-wrapper .blog-section .blog a {
   text-decoration: none;
@@ -231,14 +219,11 @@ header nav .right-nav .more-button:hover {
   background-size: cover;
   background-attachment: scroll;
   width: 105.4%;
-  margin-top: 0;
 }
 .page-container .body-wrapper .body-content-wrapper .contact-wrapper .contact-section {
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  z-index: 2;
   height: 500px;
 }
 .page-container .body-wrapper .body-content-wrapper .contact-wrapper .contact-section .location {
@@ -266,7 +251,6 @@ header nav .right-nav .more-button:hover {
 }
 .page-container .footer-wrapper {
   position: relative;
-  top: -5em;
   background-color: rgb(53, 52, 52);
   height: 6em;
   width: 100%;
@@ -278,7 +262,7 @@ header nav .right-nav .more-button:hover {
   justify-content: space-between;
   align-items: center;
   padding: 1em 5em;
-  margin: 0 4em 0 7em;
+  margin: 5em 4em 0 7em;
   color: white;
 }
 .page-container .footer-wrapper .footer-content .footer-left a {
@@ -295,14 +279,8 @@ header nav .right-nav .more-button:hover {
   .page-container .hero-wrapper .hero-content {
     top: 21%;
   }
-  .page-container .body-wrapper .body-content-wrapper .blog-section {
-    display: flex;
-    flex-direction: column;
-  }
   .page-container .body-wrapper .body-content-wrapper .blog-section .blogs-wrapper {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-left: 0;
     gap: 6em;
     text-align: center;
@@ -358,7 +336,6 @@ header nav .right-nav .more-button:hover {
     left: 22%;
   }
   .page-container .body-wrapper {
-    top: 0;
     width: 100%;
     top: 0;
     margin: 0 auto;
@@ -830,10 +807,9 @@ header nav .right-nav .more-button:hover {
 .blog-body-wrapper {
   background-color: rgb(253, 253, 253);
   position: relative;
-  top: -5em;
   width: 90%;
   max-width: 1750px;
-  margin: 0 auto;
+  margin: -5em auto;
   border-radius: 10px 10px 0 0;
   box-shadow: -1px 0px 21px 6px #999999;
   padding: 2rem 0;
@@ -884,7 +860,6 @@ header nav .right-nav .more-button:hover {
 
 .blog-footer-wrapper {
   position: relative;
-  top: -5em;
   background-color: rgb(53, 52, 52);
   height: 5em;
   width: 100%;

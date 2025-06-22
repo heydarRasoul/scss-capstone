@@ -63,10 +63,10 @@ $gray-color: rgb(147, 145, 145);
   .body-wrapper {
     background-color: rgb(253, 253, 253);
     position: relative;
-    top: -5em;
+
     width: 90%;
 
-    margin: 0 auto;
+    margin: -5em auto;
     border-radius: 10px 10px 0 0;
     box-shadow: -1px 0px 21px 6px #999999;
     padding: 2rem 2rem 0 2rem;
@@ -111,7 +111,6 @@ $gray-color: rgb(147, 145, 145);
         .foreground-wrapper {
           background-color: rgba(0, 0, 0, 0.7);
 
-          z-index: 2;
           display: grid;
           grid-template-columns: 50% 50%;
 
@@ -148,16 +147,10 @@ $gray-color: rgb(147, 145, 145);
       }
 
       .blog-section {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
         .blogs-wrapper {
           display: flex;
-          justify-content: center;
           margin-left: 7em;
-          text-align: left;
+
           .worth-section {
             .blog-worth {
               color: purple;
@@ -178,7 +171,7 @@ $gray-color: rgb(147, 145, 145);
         .blog {
           display: flex;
           flex-direction: column;
-          align-items: left;
+
           a {
             text-decoration: none;
           }
@@ -197,14 +190,11 @@ $gray-color: rgb(147, 145, 145);
         background-size: cover;
         background-attachment: scroll;
         width: 105.4%;
-        margin-top: 0;
 
         .contact-section {
           background-color: rgba(0, 0, 0, 0.7);
           display: flex;
           flex-direction: column;
-          justify-content: flex-start;
-          z-index: 2;
           height: 500px;
 
           .location {
@@ -240,7 +230,7 @@ $gray-color: rgb(147, 145, 145);
 
   .footer-wrapper {
     position: relative;
-    top: -5em;
+
     background-color: rgb(53, 52, 52);
     height: 6em;
     width: 100%;
@@ -253,7 +243,7 @@ $gray-color: rgb(147, 145, 145);
       align-items: center;
 
       padding: 1em 5em;
-      margin: 0 4em 0 7em;
+      margin: 5em 4em 0 7em;
       color: white;
 
       .footer-left {
@@ -282,13 +272,9 @@ $gray-color: rgb(147, 145, 145);
     .body-wrapper {
       .body-content-wrapper {
         .blog-section {
-          display: flex;
-          flex-direction: column;
-
           .blogs-wrapper {
-            display: flex;
             flex-direction: column;
-            justify-content: center;
+
             margin-left: 0;
             gap: 6em;
             text-align: center;
@@ -359,7 +345,6 @@ $gray-color: rgb(147, 145, 145);
     }
 
     .body-wrapper {
-      top: 0;
       width: 100%;
       top: 0;
       margin: 0 auto;
