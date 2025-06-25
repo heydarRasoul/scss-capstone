@@ -1,4 +1,6 @@
+$red-color: #e91e63;
 $gray-color: rgb(186, 184, 184);
+$background-red: rgb(184, 33, 33);
 @mixin hr-line {
   width: 100%;
   border: none;
@@ -25,19 +27,28 @@ $gray-color: rgb(186, 184, 184);
   }
 }
 
-.elements-page-container {
+@mixin related-post {
+  background-color: #f3f1f1;
+  border-radius: 5px;
+  box-shadow: 2px 1px 6px 1px #7a7a7a;
+  padding: 20px;
+}
+
+@mixin hero-wrapper {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: #e1dfdf;
+  width: 100%;
+  height: 30em;
+  background-color: $background-red;
+}
 
-  .elements-hero-wrapper {
-    width: 100%;
-    height: 30em;
-    background-color: rgb(184, 33, 33);
+.web-page-container {
+  .red-hero-wrapper {
+    @include hero-wrapper;
 
     h1 {
       position: relative;
       top: 4em;
-
       color: white;
       font-size: clamp(2rem, 3vw, 4rem);
       text-align: center;
@@ -453,10 +464,7 @@ $gray-color: rgb(186, 184, 184);
         }
 
         .worth-thousand-section {
-          background-color: #f3f1f1;
-          border-radius: 5px;
-          box-shadow: 2px 1px 6px 1px #7a7a7a;
-          padding: 20px;
+          @include related-post;
 
           .pu-color-link {
             color: purple;
@@ -464,21 +472,14 @@ $gray-color: rgb(186, 184, 184);
         }
 
         .more-tag-section {
-          background-color: #f3f1f1;
-          border-radius: 5px;
-          box-shadow: 2px 1px 6px 1px #7a7a7a;
-          padding: 20px;
-
+          @include related-post;
           .blue-color-link {
             color: rgb(18, 125, 240);
           }
         }
 
         .html-section {
-          background-color: #f3f1f1;
-          border-radius: 5px;
-          box-shadow: 2px 1px 6px 1px #7a7a7a;
-          padding: 20px;
+          @include related-post;
 
           .red-color-link {
             color: rgb(250, 42, 42);

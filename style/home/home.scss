@@ -1,15 +1,14 @@
+$red-color: #e91e63;
 @mixin more-button($border-radius, $width) {
   color: white;
   text-align: center;
-
   width: $width;
   height: 20px;
   padding: 16px;
   border-radius: $border-radius;
-  background-color: red;
+  background-color: $red-color;
   &:hover {
     box-shadow: 0px 12px 20px 0px #f9c8c8;
-
     cursor: pointer;
   }
 }

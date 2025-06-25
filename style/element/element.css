@@ -1,30 +1,28 @@
-.elements-page-container {
+.web-page-container .red-hero-wrapper {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: #e1dfdf;
-}
-.elements-page-container .elements-hero-wrapper {
   width: 100%;
   height: 30em;
   background-color: rgb(184, 33, 33);
 }
-.elements-page-container .elements-hero-wrapper h1 {
+.web-page-container .red-hero-wrapper h1 {
   position: relative;
   top: 4em;
   color: white;
   font-size: clamp(2rem, 3vw, 4rem);
   text-align: center;
 }
-.elements-page-container .elements-hero-wrapper p {
+.web-page-container .red-hero-wrapper p {
   position: relative;
   top: 12em;
   color: white;
   text-align: center;
   font-size: 18px;
 }
-.elements-page-container .elements-hero-wrapper p span {
+.web-page-container .red-hero-wrapper p span {
   font-weight: bold;
 }
-.elements-page-container .elements-body-wrapper {
+.web-page-container .elements-body-wrapper {
   background-color: rgb(253, 253, 253);
   position: relative;
   top: -5em;
@@ -34,7 +32,7 @@
   box-shadow: -1px 0px 21px 6px #999999;
   padding: 2rem;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content {
+.web-page-container .elements-body-wrapper .elements-body-content {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -42,76 +40,76 @@
   width: 60%;
   margin: 2em 20%;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .multi-line-Paragraph {
+.web-page-container .elements-body-wrapper .elements-body-content .multi-line-Paragraph {
   font-size: 18px;
   padding-bottom: 5px;
   font-weight: 300;
   line-height: 30px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .h-line {
+.web-page-container .elements-body-wrapper .elements-body-content .h-line {
   width: 100%;
   border: none;
   border-top: 1px solid rgb(186, 184, 184);
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .top-link {
+.web-page-container .elements-body-wrapper .elements-body-content .top-link {
   color: red;
   font-size: 15px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content h1 {
+.web-page-container .elements-body-wrapper .elements-body-content h1 {
   font-size: 4em;
   font-weight: 400;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content h2 {
+.web-page-container .elements-body-wrapper .elements-body-content h2 {
   font-size: 3em;
   font-weight: 400;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content h3 {
+.web-page-container .elements-body-wrapper .elements-body-content h3 {
   font-size: 2.5em;
   font-weight: 400;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content h3 {
+.web-page-container .elements-body-wrapper .elements-body-content h3 {
   font-size: 2em;
   font-weight: 400;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content h4 {
+.web-page-container .elements-body-wrapper .elements-body-content h4 {
   font-size: 1.7em;
   font-weight: 400;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content h5 {
+.web-page-container .elements-body-wrapper .elements-body-content h5 {
   font-size: 1.3em;
   font-weight: 400;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content h6 {
+.web-page-container .elements-body-wrapper .elements-body-content h6 {
   font-size: 1em;
   font-weight: 400;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .paragraph-section a {
+.web-page-container .elements-body-wrapper .elements-body-content .paragraph-section a {
   color: red;
   text-decoration: none;
   font-size: 20px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .list-section h5 {
+.web-page-container .elements-body-wrapper .elements-body-content .list-section h5 {
   margin-bottom: 0;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .list-section p {
+.web-page-container .elements-body-wrapper .elements-body-content .list-section p {
   margin-top: 0;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .list-section li {
+.web-page-container .elements-body-wrapper .elements-body-content .list-section li {
   font-weight: 200;
   line-height: 30px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form label {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form label {
   display: block;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .select-element,
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .password-lable,
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .checkboxe,
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .radio-buttons {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .select-element,
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .password-lable,
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .checkboxe,
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .radio-buttons {
   padding: 20px 0;
   font-weight: bold;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .text-input,
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .password {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .text-input,
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .password {
   padding: 10px 0;
   margin-bottom: 40px;
   border: none;
@@ -119,7 +117,7 @@
   font-size: 15px;
   border-bottom: 1px solid rgb(164, 160, 160);
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form textarea {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form textarea {
   padding: 10px 0;
   margin-bottom: 40px;
   border: none;
@@ -127,27 +125,27 @@
   font-size: 15px;
   border-bottom: 1px solid rgb(186, 184, 184);
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form select {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form select {
   margin: 10px 0 20px 0;
   padding: 10px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .radio {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .radio {
   padding-bottom: 8px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .file-field {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .file-field {
   font-weight: bold;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .file-input {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .file-input {
   font-size: 17px;
   font-weight: 300;
   margin-bottom: 30px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .clear-button {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .clear-button {
   font-size: 17px;
   font-weight: 300;
   padding: 10px 5px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .submit-button {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .submit-button {
   color: white;
   text-align: center;
   width: 8em;
@@ -159,28 +157,28 @@
   height: auto;
   margin-bottom: 30px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .submit-button:hover {
+.web-page-container .elements-body-wrapper .elements-body-content .form-wrapper .form-section form .submit-button:hover {
   box-shadow: 0px 12px 20px 0px #f9c8c8;
   cursor: pointer;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .table-wrapper table {
+.web-page-container .elements-body-wrapper .elements-body-content .table-wrapper table {
   width: 100%;
   border-collapse: collapse;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .table-wrapper table .t-row {
+.web-page-container .elements-body-wrapper .elements-body-content .table-wrapper table .t-row {
   border-bottom: 1px solid rgb(215, 212, 212);
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .table-wrapper table th {
+.web-page-container .elements-body-wrapper .elements-body-content .table-wrapper table th {
   padding-right: 5em;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .table-wrapper table td {
+.web-page-container .elements-body-wrapper .elements-body-content .table-wrapper table td {
   font-weight: 300;
   padding: 10px 0;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .misc-elements {
+.web-page-container .elements-body-wrapper .elements-body-content .misc-elements {
   width: 100%;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .misc-elements .text-box-wrapper {
+.web-page-container .elements-body-wrapper .elements-body-content .misc-elements .text-box-wrapper {
   border: 1px solid rgb(164, 160, 160);
   background-color: #f1eeee;
   border-radius: 5px;
@@ -191,31 +189,31 @@
   overflow-y: hidden;
   overflow-x: auto;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .misc-elements .text-box-wrapper p {
+.web-page-container .elements-body-wrapper .elements-body-content .misc-elements .text-box-wrapper p {
   font-size: 15px;
   width: 60em;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .qoute {
+.web-page-container .elements-body-wrapper .elements-body-content .qoute {
   border-left: 4px solid rgb(222, 219, 219);
   font-style: italic;
   margin-top: 3em;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .qoute h5 {
+.web-page-container .elements-body-wrapper .elements-body-content .qoute h5 {
   margin: 10px 0;
   padding: 5px 10px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .qoute h6 {
+.web-page-container .elements-body-wrapper .elements-body-content .qoute h6 {
   margin: 0;
   padding: 0 0 30px 10px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .categories {
+.web-page-container .elements-body-wrapper .elements-body-content .categories {
   display: flex;
   justify-content: center;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .categories p {
+.web-page-container .elements-body-wrapper .elements-body-content .categories p {
   font-size: 13px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .categories button {
+.web-page-container .elements-body-wrapper .elements-body-content .categories button {
   color: white;
   text-align: center;
   width: 9em;
@@ -227,11 +225,11 @@
   font-size: 11px;
   border: none;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .categories button:hover {
+.web-page-container .elements-body-wrapper .elements-body-content .categories button:hover {
   box-shadow: 0px 12px 20px 0px #f9c8c8;
   cursor: pointer;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .social-media-wrapper {
+.web-page-container .elements-body-wrapper .elements-body-content .social-media-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -240,15 +238,15 @@
   width: 100%;
   gap: 5px;
 }
-.elements-page-container .elements-body-wrapper .elements-body-content .social-media-wrapper a {
+.web-page-container .elements-body-wrapper .elements-body-content .social-media-wrapper a {
   font-size: 40px;
 }
-.elements-page-container .related-posts-wrapper h1 {
+.web-page-container .related-posts-wrapper h1 {
   text-align: center;
   font-size: 3em;
   margin-bottom: 2em;
 }
-.elements-page-container .related-posts-wrapper .post-wrapper {
+.web-page-container .related-posts-wrapper .post-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -256,43 +254,43 @@
   width: 84%;
   margin: auto;
 }
-.elements-page-container .related-posts-wrapper .post-wrapper .hover-link:hover {
+.web-page-container .related-posts-wrapper .post-wrapper .hover-link:hover {
   color: rgb(186, 184, 184);
 }
-.elements-page-container .related-posts-wrapper .post-wrapper a {
+.web-page-container .related-posts-wrapper .post-wrapper a {
   text-decoration: none;
 }
-.elements-page-container .related-posts-wrapper .post-wrapper .worth-thousand-section {
+.web-page-container .related-posts-wrapper .post-wrapper .worth-thousand-section {
   background-color: #f3f1f1;
   border-radius: 5px;
   box-shadow: 2px 1px 6px 1px #7a7a7a;
   padding: 20px;
 }
-.elements-page-container .related-posts-wrapper .post-wrapper .worth-thousand-section .pu-color-link {
+.web-page-container .related-posts-wrapper .post-wrapper .worth-thousand-section .pu-color-link {
   color: purple;
 }
-.elements-page-container .related-posts-wrapper .post-wrapper .more-tag-section {
+.web-page-container .related-posts-wrapper .post-wrapper .more-tag-section {
   background-color: #f3f1f1;
   border-radius: 5px;
   box-shadow: 2px 1px 6px 1px #7a7a7a;
   padding: 20px;
 }
-.elements-page-container .related-posts-wrapper .post-wrapper .more-tag-section .blue-color-link {
+.web-page-container .related-posts-wrapper .post-wrapper .more-tag-section .blue-color-link {
   color: rgb(18, 125, 240);
 }
-.elements-page-container .related-posts-wrapper .post-wrapper .html-section {
+.web-page-container .related-posts-wrapper .post-wrapper .html-section {
   background-color: #f3f1f1;
   border-radius: 5px;
   box-shadow: 2px 1px 6px 1px #7a7a7a;
   padding: 20px;
 }
-.elements-page-container .related-posts-wrapper .post-wrapper .html-section .red-color-link {
+.web-page-container .related-posts-wrapper .post-wrapper .html-section .red-color-link {
   color: rgb(250, 42, 42);
 }
-.elements-page-container .related-posts-wrapper .post-wrapper .html-section p .bluecolor-link {
+.web-page-container .related-posts-wrapper .post-wrapper .html-section p .bluecolor-link {
   color: rgb(18, 125, 240);
 }
-.elements-page-container .elements-footer-wrapper {
+.web-page-container .elements-footer-wrapper {
   position: relative;
   top: 5em;
   background-color: rgb(53, 52, 52);
@@ -301,7 +299,7 @@
   z-index: 3;
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
-.elements-page-container .elements-footer-wrapper .footer-content {
+.web-page-container .elements-footer-wrapper .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -309,16 +307,16 @@
   margin: 0 4em 0 7em;
   color: white;
 }
-.elements-page-container .elements-footer-wrapper .footer-content .footer-left {
+.web-page-container .elements-footer-wrapper .footer-content .footer-left {
   margin-left: 20px;
 }
-.elements-page-container .elements-footer-wrapper .footer-content .footer-left a {
+.web-page-container .elements-footer-wrapper .footer-content .footer-left a {
   color: white;
   margin-right: 10em;
   text-decoration: none;
   font-size: 14px;
 }
-.elements-page-container .elements-footer-wrapper .footer-content .footer-left a:hover {
+.web-page-container .elements-footer-wrapper .footer-content .footer-left a:hover {
   cursor: pointer;
 }
 

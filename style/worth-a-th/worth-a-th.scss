@@ -22,37 +22,9 @@ $gray-color: rgb(186, 184, 184);
   border-top: 1px solid $gray-color;
 }
 
-.worth-page-container {
+.web-page-container {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: #e1dfdf;
-
-  .worth-hero-wrapper {
-    width: 100%;
-    height: 30em;
-    background-color: rgb(184, 33, 33);
-
-    h1 {
-      position: relative;
-      top: 5em;
-
-      color: white;
-      font-size: clamp(1.5rem, 2vw, 3rem);
-      text-align: center;
-    }
-
-    p {
-      position: relative;
-      top: 10em;
-      color: white;
-      text-align: center;
-      font-size: 18px;
-      font-weight: lighter;
-
-      span {
-        font-weight: bold;
-      }
-    }
-  }
 
   .worth-body-wrapper {
     background-color: rgb(253, 253, 253);
@@ -117,7 +89,7 @@ $gray-color: rgb(186, 184, 184);
         justify-content: flex-end;
         position: relative;
         top: 2em;
-        // left: 15em;
+
         width: 100%;
         gap: 5px;
 
