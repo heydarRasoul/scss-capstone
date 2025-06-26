@@ -167,51 +167,16 @@ $gray-color: rgb(186, 184, 184);
       }
     }
   }
-
-  .worth-footer-wrapper {
-    position: relative;
-
-    top: 5em;
-    background-color: rgb(53, 52, 52);
-    height: 6em;
-    width: 100%;
-    z-index: 3;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-
-    .footer-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      padding: 1em 5em;
-      margin: 0 4em 0 7em;
-      color: white;
-
-      .footer-left {
-        margin-left: 20px;
-        a {
-          color: white;
-          margin-right: 7em;
-          text-decoration: none;
-          font-size: 14px;
-
-          &:hover {
-            cursor: pointer;
-          }
-        }
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 1000px) {
-  .worth-page-container {
+  .web-page-container {
     .worth-body-wrapper {
       .worth-content-wraper {
         .grid-tag-social {
           display: grid;
-          grid-template-rows: 1fr 1fr !important;
-          grid-template-columns: 1fr !important;
+          grid-template-rows: 1fr 1fr;
+          grid-template-columns: 1fr;
           gap: 2em;
 
           .social-media-wrapper {
@@ -220,22 +185,6 @@ $gray-color: rgb(186, 184, 184);
             top: 0;
             left: 0;
           }
-        }
-      }
-    }
-  }
-  .worth-footer-wrapper {
-    height: 10em;
-
-    .footer-content {
-      flex-direction: column;
-      padding: 3em;
-      margin: 0;
-
-      .footer-left {
-        a {
-          margin-top: 10em !important;
-          margin-right: 1em !important;
         }
       }
     }

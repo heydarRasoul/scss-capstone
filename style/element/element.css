@@ -1,3 +1,7 @@
+.web-page-container {
+  padding-bottom: 10em;
+  margin-bottom: -3em;
+}
 .web-page-container .red-hero-wrapper {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: #e1dfdf;
@@ -290,35 +294,6 @@
 .web-page-container .related-posts-wrapper .post-wrapper .html-section p .bluecolor-link {
   color: rgb(18, 125, 240);
 }
-.web-page-container .elements-footer-wrapper {
-  position: relative;
-  top: 5em;
-  background-color: rgb(53, 52, 52);
-  height: 6em;
-  width: 100%;
-  z-index: 3;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-}
-.web-page-container .elements-footer-wrapper .footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em 5em;
-  margin: 0 4em 0 7em;
-  color: white;
-}
-.web-page-container .elements-footer-wrapper .footer-content .footer-left {
-  margin-left: 20px;
-}
-.web-page-container .elements-footer-wrapper .footer-content .footer-left a {
-  color: white;
-  margin-right: 10em;
-  text-decoration: none;
-  font-size: 14px;
-}
-.web-page-container .elements-footer-wrapper .footer-content .footer-left a:hover {
-  cursor: pointer;
-}
 
 @media screen and (max-width: 768px) {
   .elements-page-container .elements-hero-wrapper {
@@ -395,17 +370,5 @@
   }
   .elements-page-container .related-posts-wrapper .post-wrapper .html-section p .bluecolor-link {
     color: rgb(18, 125, 240);
-  }
-  .elements-page-container .elements-footer-wrapper {
-    height: 10em;
-  }
-  .elements-page-container .elements-footer-wrapper .footer-content {
-    flex-direction: column;
-    padding: 3em;
-    margin: 0;
-  }
-  .elements-page-container .elements-footer-wrapper .footer-content .footer-left a {
-    margin-top: 10em;
-    margin-right: 1em;
   }
 }/*# sourceMappingURL=element.css.map */

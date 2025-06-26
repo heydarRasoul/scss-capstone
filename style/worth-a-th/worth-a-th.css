@@ -127,60 +127,19 @@
 .web-page-container .worth-posts-wrapper .post-wrapper .html-section p .bluecolor-link {
   color: rgb(18, 125, 240);
 }
-.web-page-container .worth-footer-wrapper {
-  position: relative;
-  top: 5em;
-  background-color: rgb(53, 52, 52);
-  height: 6em;
-  width: 100%;
-  z-index: 3;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-}
-.web-page-container .worth-footer-wrapper .footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em 5em;
-  margin: 0 4em 0 7em;
-  color: white;
-}
-.web-page-container .worth-footer-wrapper .footer-content .footer-left {
-  margin-left: 20px;
-}
-.web-page-container .worth-footer-wrapper .footer-content .footer-left a {
-  color: white;
-  margin-right: 7em;
-  text-decoration: none;
-  font-size: 14px;
-}
-.web-page-container .worth-footer-wrapper .footer-content .footer-left a:hover {
-  cursor: pointer;
-}
 
 @media screen and (max-width: 1000px) {
-  .worth-page-container .worth-body-wrapper .worth-content-wraper .grid-tag-social {
+  .web-page-container .worth-body-wrapper .worth-content-wraper .grid-tag-social {
     display: grid;
-    grid-template-rows: 1fr 1fr !important;
-    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2em;
   }
-  .worth-page-container .worth-body-wrapper .worth-content-wraper .grid-tag-social .social-media-wrapper {
+  .web-page-container .worth-body-wrapper .worth-content-wraper .grid-tag-social .social-media-wrapper {
     justify-content: flex-start;
     position: relative;
     top: 0;
     left: 0;
-  }
-  .worth-footer-wrapper {
-    height: 10em;
-  }
-  .worth-footer-wrapper .footer-content {
-    flex-direction: column;
-    padding: 3em;
-    margin: 0;
-  }
-  .worth-footer-wrapper .footer-content .footer-left a {
-    margin-top: 10em !important;
-    margin-right: 1em !important;
   }
 }
 @media screen and (max-width: 768px) {
